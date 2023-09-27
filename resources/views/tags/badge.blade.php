@@ -1,0 +1,1 @@
+<span class="tag-badge">{{$tag->tag}} <i class="--remove-tag" data-url="{{route('tags-product-remove', [$product, $tag])}}">X</i></span>
